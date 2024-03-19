@@ -1,0 +1,123 @@
+* {
+  transition: width 2s;
+}
+
+.intro_h1 {
+  font-family: "Raleway", sans-serif;
+  color: #b5adad;
+  font-size: 82px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 10px;
+
+}
+
+.it_hover_key:hover {
+  border-bottom: 0.5px;
+  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  border-style: solid;
+}
+
+.futur_head {
+  font-weight: 700;
+  text-transform: uppercase;
+
+}
+
+p,
+.ListItemText {
+  color: #8b8f93;
+}
+
+.List {
+  margin: 0%;
+  padding: 0%;
+  list-style: none;
+  overflow: hidden;
+  font-style: normal;
+
+}
+
+.service {
+  margin-top: 110px;
+  padding: 100px 0;
+  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  color: #fff;
+  width: 100%;
+
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.service p {
+  color: #fff;
+}
+
+.gellery .col-md-4 {
+  padding: 0;
+  margin: 0%;
+  text-align: center;
+  background-color: rgb(31, 31, 175);
+  position: relative;
+
+
+
+}
+
+.gellery img {
+  width: 100%;
+  height: 100%;
+  margin: 0%;
+  padding: 0%;
+  z-index: 0;
+
+}
+
+.gellery img:hover {
+  opacity: 0.5;
+
+}
+
+.hover-text {
+  font-size: 0%;
+  position: absolute;
+  color: #fff;
+
+}
+
+.gellery img:hover+.hover-text {
+  font-size: 15px;
+  z-index: 1;
+  opacity: 1;
+  margin-left: 35%;
+  margin-top: -35%;
+  text-transform: uppercase;
+}
+.client_say {
+  background-color: #f6f6f6;
+  padding: 100px 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+@media (max-width: 768px) {
+  .intro_h1 {
+    font-size: 50px;
+  }
+  *{
+    margin: 0%;
+    padding: 0%;
+   
+  }
+  .Home{
+    margin: 0%;
+    padding: 0%;
+    width: 110%;
+   
+  }
+  .About{
+    margin-left: -10%;
+  }
+  .service,.client_say {
+    width: 110%;
+  }
+}
