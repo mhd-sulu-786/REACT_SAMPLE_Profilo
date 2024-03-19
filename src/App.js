@@ -9,6 +9,8 @@ import Service from './Components/Our services/Service';
 import Gallery from './Components/Gallery/Gallery';
 import Client_say from './Components/Waht_our_client_say/Client_say';
 import Team from './Components/Meet_the_team/Team';
+import Form from './Components/Get_in_touch/Form';
+import Footer from './Components/Footer';
 
 
 function App() {
@@ -52,6 +54,9 @@ function App() {
       <Gallery />
       <Client_say/>
       <Team/>
+      <Form/>
+      <Footer/>
+  
 
 
 

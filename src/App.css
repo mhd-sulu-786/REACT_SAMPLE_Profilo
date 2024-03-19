@@ -121,3 +121,9 @@ p,
     width: 110%;
   }
 }
+.Form {
+  background-color: rgb(31, 31, 175);
+  color: white;
+  height: auto;
+
+}
