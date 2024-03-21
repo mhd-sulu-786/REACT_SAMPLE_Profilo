@@ -7,7 +7,9 @@ import Photo_4 from '../assist/imgs/04.jpg';
 
 const Team = () => {
     return (
-        <div className="container-fluid Team " style={{ padding: '100px 0' }}>
+        <div className="container-fluid Team "
+        id='TEAM'
+        style={{ padding: '100px 0' }}>
             <Container style={{ marginTop: '70px' }}>
                 <div style={{ textAlign: 'center' }}>
                     <h2 className='futur_head font-weight-bold'>MEET THE TEAM</h2>

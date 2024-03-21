@@ -9,7 +9,8 @@ import 'react-bootstrap';
 const Futur = () => {
     let color = "rgb(18, 143, 202)";
     return (
-        <div className='container-fluid text-center text-dark p-5 '>
+        <div className='container-fluid text-center text-dark p-5  '
+        id='FEATURES'>
             <div style={{ textAlign: 'center' }}>
                 <h2 className='futur_head font-weight-bold'>FEATURES</h2>
                 <div style={{ borderBottom: `3px solid ${color}`, width: '60px', margin: 'auto' }}></div>

@@ -13,7 +13,8 @@ import IMG_6 from '../assist/imgs/06-small.jpg';
 const Gallery = () => {
     let color = 'rgb(18, 143, 202)';
     return (
-        <div className='container-fluid text-center mt-4 Gallery'>
+        <div className='container-fluid text-center mt-4 Gallery'
+        id='GALLERY'>
             <Container style={{ padding: '100px 0' }}>
                 <div style={{ textAlign: 'center' }}>
                     <h2 className='futur_head font-weight-bold'>GALLERY</h2>

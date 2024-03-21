@@ -13,10 +13,10 @@
 
 }
 
-.it_hover_key:hover {
+.it_hover_key:hover{
   border-bottom: 0.5px;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
   border-style: solid;
+  border-radius: 2px;
 }
 
 .futur_head {

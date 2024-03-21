@@ -51,7 +51,8 @@ const Client_say = () => {
     ];
 
     return (
-        <div className="container-fluid client_say">
+        <div className="container-fluid client_say"
+        id='TESTIMONIALS'>
             <Container>
                 <div style={{ textAlign: 'center' }}>
                     <h2 className='futur_head font-weight-bold'>WHAT OUR CLIENTS SAY</h2>

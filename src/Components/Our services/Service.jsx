@@ -10,7 +10,8 @@ import { Container, Row, Col } from 'react-bootstrap';
 const Service = () => {
     let color = '#5ca9fb';
     return (
-        <div className='service container-fluid text-white'>
+        <div className='service container-fluid text-white'
+        id='SERVICES' >
             <Container>
                 <div>
                     <div style={{ textAlign: 'center' }}>

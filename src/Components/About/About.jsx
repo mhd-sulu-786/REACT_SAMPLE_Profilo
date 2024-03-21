@@ -24,7 +24,8 @@ const About = () => {
     ];
 
     return (
-        <div className="container-fluid mb-5 About">
+        <div className="container-fluid mb-5 About"
+        id='ABOUT'>
             <Container className='m-5 d-flex flex-wrap align-items-center'>
                 <div className='col-md-6 mb-4'>
                     <img style={{ maxHeight: '100%', width: '100%', objectFit: 'cover' }} src={about} alt="" />
