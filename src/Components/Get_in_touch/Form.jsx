@@ -10,7 +10,7 @@ const Form = () => {
     let color = 'rgb(38, 43, 202)';
 
     return (
-        <div className="container-fluid Form" style={{ paddingTop: '100px', paddingBottom: '100px', background: 'linear-gradient(to right, #6372ff 0%, #5ca9fb 100%)' }}>
+        <div id='form' className="container-fluid Form" style={{ paddingTop: '100px', paddingBottom: '100px', background: 'linear-gradient(to right, #6372ff 0%, #5ca9fb 100%)' }}>
             <Container>
                 <div style={{ textAlign: 'left' }}>
                     <h2 className='futur_head font-weight-bold'>GET IN TOUCH</h2>
